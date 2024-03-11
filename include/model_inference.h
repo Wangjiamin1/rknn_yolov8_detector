@@ -1,3 +1,7 @@
+#ifndef _MODEL_INFERENCE_H_
+#define _MODEL_INFERENCE_H_
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -76,3 +80,5 @@ private:
     cv::Mat InterenceImg;
     rknn_app_context_t ModelInfo;
 };
+
+#endif
